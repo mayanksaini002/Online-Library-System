@@ -1,12 +1,22 @@
-# React + Vite
+Online Library System :-
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* This is my online library system built using React. The project allows users to browse, search, and view details about books available in the library. I developed an interactive web application that simulates a real-world library environment.
 
-Currently, two official plugins are available:
+Features :-
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1) Book Listing: Users can view a list of all available books.
 
-## Expanding the ESLint configuration
+2) Book Details: Click on any book to see detailed information, such as the author, category, and a short description.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3) Search Functionality: Easily search for books by title or author.
+
+
+How It Works :-
+
+1) Home Page: The home page displays a list of books fetched . Each book is displayed as a card with its title, and author.
+
+2) Book Detail Page: When a user clicks on a book card, they are taken to a detailed page showing all relevant information about the book.
+
+3) Search: A search bar is provided at the Browse books page. Users can type in a keyword to filter the displayed books based on the title or author.
+
+4) Navigation: A simple header is available for easy navigation between pages (home, etc.).
